@@ -19,3 +19,13 @@ bundle install --binstubs
 
 You may wonder how bundle knew that you wanted to install RSpec? If so, take a look
 in the file: [Gemfile](./Gemfile)
+
+## Step three
+Run the test, for that you need to run the command:
+
+``` bash
+bundle exec rspec
+```
+
+What to do now? Fix the test, a good starting point is to open [the test file in the folder "spec"](./spec/tiny_test_spec.rb)
+
