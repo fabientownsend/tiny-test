@@ -1,8 +1,13 @@
+def example_of_function
+  false
+end
+
 RSpec.describe do
-  it 'should break' do
+  it 'shoulds pass' do
     expect(false).to equal(true)
   end
 
-  it 'is an empty test' do
+  it 'same thing, but with a method' do
+    expect(example_of_function).to equal(true)
   end
 end
